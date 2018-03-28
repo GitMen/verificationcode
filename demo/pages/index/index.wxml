@@ -4,4 +4,4 @@
 <text class="user-motto">{{code}}</text>
 
 <!-- 验证码组件 -->
-<verifycode id='verifycode' />
+<verifycode id='verifycode' title="请输入验证码哈" content="已发送到手机:" />

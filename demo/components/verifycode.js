@@ -11,12 +11,22 @@ Component({
     isFocus:false,
     inputValue:'',
     src:'image/close.png',
-    title:'请输入验证码',
-    content:'已发送到手机号:',
     phone:'15200000000',
     codes:["","","","","",""]
   },
-
+  /**
+  * 组件的属性列表
+  */
+  properties: {
+    title: {
+      type: String,
+      value: "请输入验证码"
+    },
+    content: {
+      type: String,
+      value: "已发送到手机号:"
+    }
+  },
   /**
    * 组件的方法列表
    */
